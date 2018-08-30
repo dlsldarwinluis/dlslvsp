@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+}
+
+@font-face{
+    font-family: Futura Hv;
+    src: url("/videostreamingportal/fonts/Futura\ Heavy\ font.ttf");
+}
+@font-face{
+    font-family: Futura Lt;
+    src: url("/videostreamingportal/fonts/futura\ light\ bt.ttf");
+}
+
+div::selection {
+    background: #0f7f3e42;
+}
+div::-moz-selection {
+    background: #0f7f3e42;
+}
+span::selection {
+    background: #0f7f3e42;
+}
+span::-moz-selection {
+    background: #0f7f3e42;
+}
+button::selection {
+    background: #0f7f3e42;
+}
+button::-moz-selection {
+    background: #0f7f3e42;
+}
+img::selection {
+    background: #0f7f3e42;
+}
+img::-moz-selection {
+    background: #0f7f3e42;
+}
+input::selection {
+    background: #0f7f3e42;
+}
+input::-moz-selection {
+    background: #0f7f3e42;
+}
+button:hover{
+    cursor: pointer;
+}
+
+#topContainer{
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #0f7f3e;
+    -webkit-box-shadow: 0px 2px 15px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 15px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 15px -2px rgba(0,0,0,0.75);
+}
+#topContent{
+    padding: 1%;
+    text-align: center;
+}
+.user-div{
+    display: inline;
+}
+#categoryContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1%;
+}
+#userContainer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1%;
+}
+.user-button{
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    border: none;
+}
+.user-icon{
+    width: 30px;
+}
+.user-input{
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 45%;
+    padding: 5px;
+    vertical-align: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10pt;
+}
+#categorytwoContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 5%;
+    text-align: center;
+    width: 5%;
+    height: 100%;
+    background-color: white;
+    -webkit-box-shadow: 1px 2px 23px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 23px -2px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 23px -2px rgba(0,0,0,0.75);
+    transition: ease-in 0.5s;
+}
+#categoryContent{
+    overflow: hidden;
+}
+#userSettingsContainer{
+    display: none;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20%;
+    margin-right: 1%;
+    margin-top: 5%;
+    background-color: white;
+    border: 1px solid #0f7f3e;
+}
+.user-link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.user-div-opt{
+    padding: 2%;
+}
+.user-div-opt:hover{
+    background-color: #d3d8d5;
+}
+.user-text{
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+    vertical-align: 10px;
+}
+.video-show{
+    width: 100%;
+}
+.user-tabledata{
+    text-align: left;
+    margin-left: 7.5%;
+    width: 90%;
+    padding: 0.5%;
+}
+.user-tabledata>tbody>tr>td{
+    width: 20%;
+}
+#music{
+    margin-top: 5%;
+}.user-texts{
+    font-size: 8pt;
+}
+.vid-buttonsub{
+    border: none;
+    font-weight: bold;
+    font-size: 8pt;
+    background-color: rgba(255, 255, 255, 0);
+}
+#viewContainer{
+    margin-top: 5%;
+    margin-left: 6%;
+    text-align: center;
+}
+.video-showfull{
+    width: 80%;
+}
+#title{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.title-textdesc{
+    font-family: Futura Hv, sans-serif;
+    font-size: 30pt;
+}
+.title-textview{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+}
+#addvideoForm-cont{
+    margin-top: 7%;
+    margin-left: 20%;
+    margin-bottom: 2%;
+}
+.form-container{
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 6px 20px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 6px 20px -2px rgba(0,0,0,0.75);
+    box-shadow: 4px 6px 20px -2px rgba(0,0,0,0.75);
+}
+.form-textdesc{
+    background-color: #0f7f3e;
+    padding: 2%;
+    text-align: center;
+}
+.form-text{
+    font-family: Futura Hv, sans-serif;
+    font-size: 24pt;
+    color: white;
+}
+#addvideoForm{
+    text-align: center;
+    padding: 5%;
+}
+.videoform-div{
+    padding: 1%;
+}
+.videoform-input{
+    width: 75%;
+    padding: 2%;
+    border-radius: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+    border: 1px solid #0f7f3e;
+}
+.videoform-select{
+    width: 79.5%;
+    padding: 2%;
+    border-radius: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+    border: 1px solid #0f7f3e;
+}
+.videoform-button{
+    width: 30%;
+    padding: 2%;
+    border-radius: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+    background-color: white;
+    border: 1px solid #0f7f3e;
+}
+.videoform-button:hover{
+    cursor: pointer;
+    background-color: #0f7f3e6a;
+}
